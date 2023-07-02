@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  margin: 30px 50px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+}
+
+@media (max-width: 678px) {
+  .title {
+    font-size: 22px;
+  }
+}
+
+
+.container {
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media (max-width: 678px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.espantapajaros img{
+  padding: 70px;
+  width: 500px;
+  height: auto;
+}
+@media (max-width: 678px) {
+  .espantapajaros img{
+    display: flex;
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  color: rgb(32, 32, 32);
+}
+
+@media (max-width: 678px) {
+  .content {
+    margin: 20px;
+  }
+}
+
+.content h1 {
+ font-size: 60px;
+}
+
+@media (max-width: 678px) {
+  .content h1{
+    font-size: 50px;
+  }
+}
+
+.content p {
+  margin-top: 30px;
+  font-size: 20px;
+  margin-right: 50%;
+  color: rgb(82, 79, 79);
+}
+
+@media (max-width: 678px) {
+  .content p{
+    margin-right: 20px;
+  }
+}
+
+.content button {
+  width: 150px;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  border: none;
+  font-size: 10px;
+}
+
+@media (max-width: 678px) {
+  .content button{
+    font-size: 15px;
+    width: 200px;
+  }
+}
+
+.content button:hover{
+  background-color: gray;
+}
